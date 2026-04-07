@@ -48,6 +48,7 @@ p{
     background-color: var(--Gray-100);
 }
 
+
 .icerik1{
     width: 300px;
     padding: 50px;
@@ -75,7 +76,7 @@ p{
 }
 
 button{
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 30px;
     border: none;
     font-family: "Lexend Deca", sans-serif;
@@ -110,4 +111,37 @@ button:hover{
 
 .btn3:hover{
     background-color: var(--Green-950);
+}
+
+@media(max-width:768px){
+    .container{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .icerik1{
+        border-radius: 8px 8px 0px 0px;
+        padding: 40px;
+    }
+
+    .icerik2{
+        border-radius: 0px;
+        padding: 40px;
+    }
+
+    .icerik3{
+        border-radius: 0px 0px 8px 8px;
+        padding: 40px;
+    }
+
+    h1{
+        margin-bottom: 25px;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
 }
